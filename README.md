@@ -46,5 +46,7 @@
         └── snackbar_service.dart
 ```
 
+<img width="300" alt="image" src="https://github.com/YamamotoDesu/production_grade_flutter_architecuter_with_reiverpod/assets/47273077/3e06e226-781c-4720-92e2-4029f57b7a25">
+
 
 
