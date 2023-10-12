@@ -1,16 +1,50 @@
-# production_grade_flutter_architecuter_with_reiverpod
+# [Production grade Flutter Architecture with Riverpod](https://youtu.be/uX2I19r_6NY?si=MFMU5Lhsig3notyo)https://youtu.be/uX2I19r_6NY?si=MFMU5Lhsig3notyo
 
-A new Flutter project.
+```
+.
+├── main.dart
+└── src
+    ├── app.dart
+    ├── commons
+    │   ├── controller
+    │   ├── providers
+    │   │   └── common_providers.dart
+    │   ├── repository
+    │   └── views
+    │       └── splash.dart
+    ├── core
+    │   ├── api.dart
+    │   ├── core.dart
+    │   ├── failure.dart
+    │   └── type_def.dart
+    ├── feature
+    │   ├── home
+    │   │   ├── controller
+    │   │   ├── repository
+    │   │   └── view
+    │   │       └── home.dart
+    │   └── product
+    │       ├── controller
+    │       │   └── product.dart
+    │       ├── repository
+    │       │   └── product.dart
+    │       └── view
+    │           ├── products.dart
+    │           └── widgets
+    │               └── product_list_item.dart
+    ├── models
+    │   └── product.dart
+    ├── res
+    │   ├── assets.dart
+    │   ├── base.dart
+    │   ├── endpoints.dart
+    │   └── strings.dart
+    └── utils
+        ├── alert.dart
+        ├── config.dart
+        ├── router.dart
+        └── snackbar_service.dart
+```
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
