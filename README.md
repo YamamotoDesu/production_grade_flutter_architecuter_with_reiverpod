@@ -1,4 +1,4 @@
-# [Production grade Flutter Architecture with Riverpod](https://youtu.be/uX2I19r_6NY?si=MFMU5Lhsig3notyo)https://youtu.be/uX2I19r_6NY?si=MFMU5Lhsig3notyo
+# [Production grade Flutter Architecture with Riverpod](https://youtu.be/uX2I19r_6NY?si=MFMU5Lhsig3notyo)
 
 ```
 .
